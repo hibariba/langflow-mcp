@@ -555,14 +555,14 @@ wheels = [
 
 [[package]]
 name = "blockbuster"
-version = "1.5.7"
+version = "1.5.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "forbiddenfruit" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d4/19/33ac1f5586f828d84d55ad5186a509d2d5efdec9a051f2de7fbdc73100ef/blockbuster-1.5.7.tar.gz", hash = "sha256:192aa4db4ce443ccfd0d9cdb6212521024d155ff1e9797bab47695bb3d346a3e", size = 33986 }
+sdist = { url = "https://files.pythonhosted.org/packages/ef/d9/c117da06f9dee8ca4179e6a2fd3d413f6e4f7fcffd09652d2f2cda9d22da/blockbuster-1.5.8.tar.gz", hash = "sha256:0018080fd735e84f0b138f15ff0a339f99444ecdc0045f16056c7b23db92706b", size = 33990 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/ea/d3527833dc9692d8d555f131c5b54a676775cb3872cf611c5c3c4c9763ec/blockbuster-1.5.7-py3-none-any.whl", hash = "sha256:7dc2effc55fa16b11c7c623549c2b37667ba6273deaa6d8e6800daf54f40c22f", size = 11696 },
+    { url = "https://files.pythonhosted.org/packages/1a/61/1c154c6f4e2994d7b1a9fa9cc40d7614c9fc0fe07cc55c1e1ac956404033/blockbuster-1.5.8-py3-none-any.whl", hash = "sha256:ea0352823acbd837872785a96ec87701f1c7938410d66c6a8857ae11646d9744", size = 11700 },
 ]
 
 [[package]]
@@ -1378,6 +1378,8 @@ dependencies = [
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/0b/b6/37221c2e35a05a8f959d2f33a09e2e717e47101359a9611c54d0ab1223e3/crosshair-tool-0.0.80.tar.gz", hash = "sha256:f7aa846243033ceedba6c186b7211fca926dd60c677d829ccb2b47cdbb871964", size = 448138 }
 wheels = [
+    { url = "https://files.pythonhosted.org/packages/c5/fa/5b77230a2e70181caba307c20e62f19098c86c8802e3097ecb4e424f62e1/crosshair_tool-0.0.80-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:8b9467b0401d789d1dad8bf30520185e886afce0d1db4266b65705342f3b3e58", size = 510635 },
+    { url = "https://files.pythonhosted.org/packages/1d/3a/cef3051d0273ab8c8b53fb7e17de5e317eb8e36f1e052924c8eae247d641/crosshair_tool-0.0.80-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:befc7cc6a5d922aead34734ead50a3ec7cda3136db74bae1677a69d0733694d0", size = 502784 },
     { url = "https://files.pythonhosted.org/packages/8b/64/61b115c174c54165df914030276297ba2b04ee6d70b7f4a5f8b2fa693549/crosshair_tool-0.0.80-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:5399b23b96096015023151a7f718288d086ab39b840cfb7757df470253e1bdd6", size = 503556 },
     { url = "https://files.pythonhosted.org/packages/1b/4a/7c519e5386443d867eaac0fd1b8fb1540b68f72bf17901ffcb8e73b3da95/crosshair_tool-0.0.80-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:83056ceabb5ae1a403939c8de04161f19213dd38a64b9583b4995e16191c1398", size = 524692 },
     { url = "https://files.pythonhosted.org/packages/39/a4/17b1554d61ed8a2263c6784bbd61facbd7ff59e7a298bc12da9b86ed7cf0/crosshair_tool-0.0.80-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5fe53af53b512f599d680f6d2ca68ac7099dc069a3cf459156342374a4eef795", size = 526932 },
@@ -4182,7 +4184,7 @@ requires-dist = [
 [package.metadata.requires-dev]
 dev = [
     { name = "asgi-lifespan", specifier = ">=2.1.0" },
-    { name = "blockbuster", specifier = ">=1.5.7,<1.6" },
+    { name = "blockbuster", specifier = ">=1.5.8,<1.6" },
     { name = "codeflash", specifier = ">=0.8.4" },
     { name = "dictdiffer", specifier = ">=0.9.0" },
     { name = "httpx", specifier = ">=0.27.0" },
