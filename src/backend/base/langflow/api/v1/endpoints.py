@@ -155,8 +155,9 @@ async def simple_run_flow_task(
             api_key_user=api_key_user,
         )
 
-    except Exception:  # noqa: BLE001
+    except Exception:
         logger.exception(f"Error running flow {flow.id} task")
+        raise
 
 
 @router.post("/run/{flow_id_or_name}", response_model_exclude_none=True)  # noqa: RUF100, FAST003
